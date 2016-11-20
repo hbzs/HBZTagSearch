@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'HBZTagSearch_Example' do
+  pod 'HBZTagSearch', :path => '../'
+
+  target 'HBZTagSearch_Tests' do
+    inherit! :search_paths
+
+    pod 'Kiwi'
+  pod 'FBSnapshotTestCase'
+  end
+end

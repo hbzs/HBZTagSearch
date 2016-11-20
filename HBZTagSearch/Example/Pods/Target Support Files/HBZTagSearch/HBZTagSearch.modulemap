@@ -1,0 +1,6 @@
+framework module HBZTagSearch {
+  umbrella header "HBZTagSearch-umbrella.h"
+
+  export *
+  module * { export * }
+}

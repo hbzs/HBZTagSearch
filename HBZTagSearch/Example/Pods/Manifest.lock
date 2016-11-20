@@ -1,0 +1,26 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HBZTagSearch (0.1.0)
+  - Kiwi (2.4.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HBZTagSearch (from `../`)
+  - Kiwi
+
+EXTERNAL SOURCES:
+  HBZTagSearch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: '094f9f314decbabe373b87cc339bea235a63e07a'
+  HBZTagSearch: 57bc9c26958ae7ba1c363347eb7a9e7df088cb42
+  Kiwi: f49c9d54b28917df5928fe44968a39ed198cb8a8
+
+PODFILE CHECKSUM: 44764db0db5e98c634838ce1b05c23a69cfcb7d7
+
+COCOAPODS: 1.2.0.beta.1
